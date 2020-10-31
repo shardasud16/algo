@@ -21,6 +21,7 @@ public class FindConnection {
         union(3, 9);
         union(5, 10);
         union(10, 7);
+        //union(1, 5);
 
         if(find(1) == find(4)){
             System.out.println("Yes 1 and 4 and related");
@@ -48,6 +49,12 @@ public class FindConnection {
     }
 
 
+    /**
+     * If both node has same weight/rank first node in the invocation is made parent node
+     * If weight of a node is more , that node is kept as parent node
+     * @param first
+     * @param second
+     */
     public static void union(int first, int second){
 
         int firstParent = find(first);
@@ -75,7 +82,7 @@ public class FindConnection {
 
 
     /**
-     * Used logic of Collapsing Find to maintain the height
+     * Used logic of Collapsing Find to maintain the height (not yet)
      * @param node
      * @return
      */
