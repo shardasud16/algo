@@ -80,14 +80,7 @@ public class FindConnection {
      * @return
      */
     public static int find(int node){
-
-        if(virtualTree[node] < 0){
-            return node;
-        }
-        else{
-            return find(virtualTree[node]);
-        }
-
+        return virtualTree[node] < 0 ? node : find(virtualTree[node]);
     }
 
 }
