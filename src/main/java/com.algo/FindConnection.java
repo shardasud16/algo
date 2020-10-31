@@ -3,7 +3,7 @@ package main.java.com.algo;
 public class FindConnection {
 
     /**
-     * This is implementation of problem discussed here.
+     * This is implementation of problem discussed here. https://www.geeksforgeeks.org/disjoint-set-data-structures/
      * Tried solving this problem using single Array.
      *
      * Please review and provide your inputs
