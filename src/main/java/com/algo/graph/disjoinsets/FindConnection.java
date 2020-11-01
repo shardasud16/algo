@@ -1,4 +1,4 @@
-package main.java.com.algo;
+package main.java.com.algo.graph.disjoinsets;
 
 public class FindConnection {
 
@@ -52,8 +52,8 @@ public class FindConnection {
     /**
      * If both node has same weight/rank first node in the invocation is made parent node
      * If weight of a node is more , that node is kept as parent node
-     * @param first
-     * @param second
+     * @param first node
+     * @param second node
      */
     public static void union(int first, int second){
 
@@ -83,8 +83,8 @@ public class FindConnection {
 
     /**
      * Used logic of Collapsing Find to maintain the height (not yet)
-     * @param node
-     * @return
+     * @param node for which we need to find parent
+     * @return Parent Node
      */
     public static int find(int node){
         return virtualTree[node] < 0 ? node : find(virtualTree[node]);
