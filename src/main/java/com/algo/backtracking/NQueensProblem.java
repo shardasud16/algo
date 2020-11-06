@@ -1,9 +1,7 @@
 package main.java.com.algo.backtracking;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 public class NQueensProblem {
 
@@ -84,10 +82,6 @@ public class NQueensProblem {
             }
         }
 
-        String [] str = {"a", "b", "c"};
-        //str.length;
-        Map<Integer,String []> map = new HashMap<>();
-        map.put(2, str);
         return false;
     }
 }
