@@ -1,8 +1,5 @@
 package main.java.com.algo.backtracking;
 
-import com.sun.jdi.Value;
-import main.java.com.algo.bst.ValidateBST;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -30,7 +27,7 @@ public class SumOfSubSets {
 
     public static void main(String[] args) {
 
-        int [] numbers = new int [] {5, 10, 12, 13, 15, 18};
+        int [] numbers = new int [] {15, 10, 12, 13, 5, 18};
 
         getAllSubSets(numbers, 0, 73, new int [6], 0);
 
