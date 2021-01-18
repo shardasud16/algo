@@ -5,6 +5,11 @@ import java.util.Comparator;
 import java.util.Set;
 import java.util.TreeSet;
 
+
+/**
+ * Given a array of Job and their respective deadlines, get the maximum profit that can
+ * be achieved.
+ */
 public class JobSequencing {
 
     public static void main(String[] args) {
